@@ -1,0 +1,79 @@
+<https://kotlinlang.org/>
+
+<https://kotlinlang.org/>Play <https://play.kotlinlang.org/>
+
+  * Solutions
+      o Multiplatform Mobile <https://kotlinlang.org/lp/mobile/>
+      o Server-side <https://kotlinlang.org/lp/server-side/>
+      o Web frontend <https://kotlinlang.org/docs/js-overview.html>
+      o Data science
+        <https://kotlinlang.org/docs/data-science-overview.html>
+      o Android <https://kotlinlang.org/docs/android-overview.html>
+  * Docs <https://kotlinlang.org/docs/home.html>
+  * Community <https://kotlinlang.org/community/>
+  * Teach <https://kotlinlang.org/education/>
+  * Play
+
+SolutionsMultiplatform Mobile
+<https://kotlinlang.org/lp/mobile/>Server-side
+<https://kotlinlang.org/lp/server-side/>Web frontend
+<https://kotlinlang.org/docs/js-overview.html>Data science
+<https://kotlinlang.org/docs/data-science-overview.html>Android
+<https://kotlinlang.org/docs/android-overview.html>Docs
+<https://kotlinlang.org/docs/home.html>Community
+<https://kotlinlang.org/community/>Teach
+<https://kotlinlang.org/education/>Play <https://play.kotlinlang.org/>
+
+Play <https://play.kotlinlang.org/>
+Playground
+
+Playground <https://play.kotlinlang.org/>Hands-on
+<https://play.kotlinlang.org/hands-on>Examples
+<https://play.kotlinlang.org/byExample>Koans
+<https://play.kotlinlang.org/koans>
+Hands-on <https://play.kotlinlang.org/hands-on>Examples
+<https://play.kotlinlang.org/byExample>Koans
+<https://play.kotlinlang.org/koans>
+
+|fun main() { var array = 1234 println(array.sum()) } fun Int.sum(): Int
+{ var sum=0 var number = this while (number!=0) { sum+=number%10
+number/=10 } return sum }|
+
+x
+ 
+
+fun main() {
+
+    
+
+    var array = 1234
+
+    println(array.sum())
+
+  
+
+}
+
+​
+
+fun Int.sum(): Int
+
+{
+
+    var sum=0
+
+    var number = this
+
+    while (number!=0) {
+
+        sum+=number%10
+
+        number/=10
+
+    }
+
+    return sum
+
+}
+
+Target platform: JVMRunning on kotlin v.1.6.0
